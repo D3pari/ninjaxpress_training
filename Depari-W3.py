@@ -66,23 +66,72 @@
 
 # print(list)
 
-#Punya mas Awan
+#Punya mas Awan buat quiz
 
-count = int(input("Berapa data: "))
+# count = int(input("Berapa data: "))
 
-nama_pelanggan = []
-umur_pelanggan = []
+# nama_pelanggan = []
+# umur_pelanggan = []
 
-for i in range(count):
-    print("Data ke {}". format(i+1))
-    nama = input("Nama : ")
-    umur = int(input("umur : "))
+# #fungsi format (i+1) karena semua di python mulai dari 0
+# for i in range(count):
+#     print("Data ke {}". format(i+1))
+#     nama = input("Nama : ")
+#     umur = int(input("umur : "))
 
-    nama_pelanggan.append(nama)
-    umur_pelanggan.append(umur)
+#     nama_pelanggan.append(nama)
+#     umur_pelanggan.append(umur)
 
-for i in range(count):
-    print("Pelanggan {} berusia {}". format(nama_pelanggan[i], umur_pelanggan[i]))
+# for i in range(count):
+#     print("Pelanggan {} berusia {}". format(nama_pelanggan[i], umur_pelanggan[i]))
 
 
 #2 While Loops
+#pengulangan yang kita eksekusi terus menerus selama kondisinya terpenuhi
+
+#berhentiin while pake ctrl + c
+# i = 1
+# while i<6:
+#     print(i)
+
+# for i in range(5):
+#     print(i)
+
+#continue artinya tidak akan menjalankan perintah dibawahnya
+
+#fungsi break untuk stop angka di mana kita minta dia berhenti
+
+#or itu untuk 1 kriteria terpenuhi, and itu untuk 2 kriteria terpenuhi
+# for i in range(5):
+#     if i == 2:
+#         break
+#     print(i)
+
+# print (" ")
+
+# for i in range(5):
+#     if i == 2 or i == 3:
+#         continue
+    # print(i)
+
+# for i in range(3):
+#     print("i: {}". format(i))
+#     for j in range (3):
+#         print("j: {}". format(j))
+
+# for baris in range(5):
+#     for kolom in range(5):
+#         print("{}.{}". format(baris+1, kolom+1), end=" ")
+#     print()
+
+x = [1,2,3,4,5]
+y = [2,4,3,5,6]
+z = 0
+
+for i in x :
+    for j in y :
+        if i == j:
+            z = z+1
+
+print(z)
+
