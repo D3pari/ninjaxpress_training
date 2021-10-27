@@ -67,3 +67,6 @@
 # else:
 #     print("a is greater than b")
 
+data = [1,2,3]
+np.array(data)
+array([1,2,3])
